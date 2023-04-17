@@ -9,26 +9,28 @@ html, body {
 }
 
 section {
-     height: 100vh; /* sets height to 100% of viewport height */
-   }
+  height: 100%;
+  padding: 80px 0;
+  background-color: #f9f9f9;
+} 
    
-   .home {
+.home {
      background-color: #f0f0f0;
    }
    
-   .about {
+.about {
      background-color: #e0e0e0;
    }
    
-   .portfolio {
+.portfolio {
      background-color: #d0d0d0;
    }
    
-   .skills {
+.skills {
      background-color: #c0c0c0;
    }
    
-   .contact {
+.contact {
      background-color: #b0b0b0;
    }
 
