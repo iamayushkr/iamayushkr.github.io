@@ -1,0 +1,309 @@
+/* Global styles */
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     scroll-behavior: smooth; /* adds smooth scrolling effect */
+}
+
+section {
+     height: 100vh; /* sets height to 100% of viewport height */
+   }
+   
+   .home {
+     background-color: #f0f0f0;
+   }
+   
+   .about {
+     background-color: #e0e0e0;
+   }
+   
+   .portfolio {
+     background-color: #d0d0d0;
+   }
+   
+   .skills {
+     background-color: #c0c0c0;
+   }
+   
+   .contact {
+     background-color: #b0b0b0;
+   }
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+/* Navigation Bar styles */
+.navbar {
+	background-color: #343a40;
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+}
+
+.nav-link {
+	font-size: 1.1rem;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+	background-image: url('https://via.placeholder.com/1500x500');
+	background-size: cover;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.jumbotron h1 {
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+
+.jumbotron p {
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+/* About Section styles */
+#about {
+	background-color: #f8f9fa;
+	padding: 5rem 0;
+}
+
+#about h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+#about p {
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin-bottom: 3rem;
+}
+
+/* Services Section styles */
+#services {
+	background-color: #fff;
+	padding: 5rem 0;
+}
+
+#services h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.service {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.service h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+.service p {
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin-bottom: 1.5rem;
+}
+
+/* Portfolio Section styles */
+#portfolio {
+	background-color: #f8f9fa;
+	padding: 5rem 0;
+}
+
+#portfolio h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.card {
+	border: none;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+	transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+.card-img-top {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.card-text {
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin-bottom: 1.5rem;
+}
+
+/* Contact Section styles */
+#contact {
+	background-color: #fff;
+	padding: 5rem 0;
+}
+
+#contact h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.form-group label {
+	font-size: 1.2rem;
+}
+
+.form-control {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+	margin-bottom: 2rem;
+}
+
+textarea.form-control {
+	height: 150px;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+	font-size: 1.2rem;
+	padding: 0.75rem 2rem;
+	border-radius: 30px;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+	background-color: #0062cc;
+	border-color: #0062cc;
+}
+
+.btn-primary:focus {
+	box-shadow: none;
+}
+
+/* Footer styles */
+footer {
+	background-color: #343a40;
+	color: #fff;
+	padding: 3rem 0;
+}
+
+footer p {
+	font-size: 1.2rem;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #007bff;
+	text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+	.navbar-brand {
+		font-size: 1.2rem;
+	}
+	
+	.nav-link {
+		font-size: 1rem;
+	}
+	
+	.jumbotron h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+	
+	.jumbotron p {
+		font-size: 1.2rem;
+		margin-bottom: 2rem;
+	}
+	
+	.service h3 {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+	}
+	
+	.service p {
+		font-size: 1rem;
+		line-height: 1.5;
+		margin-bottom: 1.5rem;
+	}
+	
+	.card-title {
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+	}
+	
+	.card-text {
+		font-size: 1rem;
+		line-height: 1.5;
+		margin-bottom: 1rem;
+	}
+	
+	.form-group label {
+		font-size: 1rem;
+	}
+	
+	.form-control {
+		font-size: 1rem;
+	}
+	
+	.btn-primary {
+		font-size: 1rem;
+		padding: 0.5rem 1.5rem;
+	}
+}
+
+.section-title {
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+
+.skill-title {
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+
+.progress {
+	height: 20px;
+	border-radius: 10px;
+	background-color: #e0e0e0;
+	box-shadow: none;
+}
+
+.progress-bar {
+	height: 20px;
+	border-radius: 10px;
+	background-color: #007bff;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.25rem 0.5rem;
+}
+
+@media (max-width: 768px) {
+	.skill-title {
+		margin-top: 2rem;
+	}
+}
+
